@@ -1,0 +1,75 @@
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+  --azul: #2bb3b1;
+  --azul-bajito: #4abebd;
+}
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+}
+.info {
+  padding: 10px 20px;
+  margin: 0;
+}
+.info h3 {
+  color: var(--Cyan);
+}
+.info h4 {
+  color: var(--Bright-Yellow);
+}
+.info p {
+  line-height: 1.7;
+  color: #a8a8a8;
+}
+
+.registro {
+  background-color: var(--azul);
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0;
+}
+.registro p:first-of-type {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+}
+.registro p span {
+  font-size: 20px;
+  color: var(--Light-Gray);
+  font-weight: 400;
+}
+.registro input {
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--Bright-Yellow);
+  border-radius: 10px;
+  border: 1px solid var(--Bright-Yellow);
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+.registro input:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.nosotros {
+  background-color: var(--azul-bajito);
+  padding: 10px 20px;
+}
+.nosotros h3 {
+  color: #fff;
+  margin: 0;
+  padding-bottom: 20px;
+}
+p {
+  margin: 0;
+  color: var(--Light-Gray);
+  line-height: 1.7;
+}
