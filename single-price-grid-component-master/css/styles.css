@@ -73,3 +73,36 @@ p {
   color: var(--Light-Gray);
   line-height: 1.7;
 }
+@media (min-width: 768px) {
+  .contenido {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: row;
+  }
+  .info {
+    margin-bottom: 50px;
+  }
+  .registro {
+    flex: calc(40% - 1rem);
+    padding-left: 50px;
+  }
+  .registro input {
+    margin-bottom: 90px;
+  }
+  .nosotros {
+    flex: calc(60% - 1rem);
+  }
+  .registro p {
+    margin-bottom: 20px;
+  }
+  .registro input {
+    width: 80%;
+  }
+  .nosotros h3 {
+    width: 40%;
+    text-align: center;
+  }
+}
